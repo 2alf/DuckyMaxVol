@@ -1,0 +1,39 @@
+REM Author: 2alf // pogg 
+REM Date: 12-08-2023
+REM Description: A basic Ducky powershell script.
+REM Creates a function that allows volume manipulation, raises the volume to 100% and then plays a Kanye-Eva remix video with maximum volume.
+REM Target:  Windows 7/8/10/11 
+REM Version: 0.1 / Basic
+
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell
+DELAY 100
+ENTER
+DELAY 100
+STRING function set_AudioLevel($audioLevel){$wshShell = new-object -com wscript.shell; 1..50 | % {$wshShell.SendKeys([char]175)}; $audioLevel = $audioLevel / 2;1..$audioLevel | % {$wshShell.SendKeys([char]174)}}
+DELAY 1000
+ENTER
+DELAY 500
+STRING set_AudioLevel -Volume 100
+DELAY 800
+ENTER
+DELAY 200
+STRING Start-Process "https://www.youtube.com/watch?v=-QtorATw7YM"
+DELAY 500
+ENTER
+DELAY 300
+GUI r
+DELAY 200
+STRING powershell
+DELAY 100
+ENTER
+DELAY 100
+STRING echo "--------------------------------------- `n$$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\`n$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\`n$$ /  $$ |$$ /  $$ |$$ /  $$ |$$ /  $$ |`n$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |`n$$$$$$$  |\$$$$$$  |\$$$$$$$ |\$$$$$$$ |`n$$  ____/  \______/  \____$$ | \____$$ |`n$$ |                $$\   $$ |$$\   $$ |`n$$ |                \$$$$$$  |\$$$$$$  |`n\__|                 \______/  \______/`n ---------------------------------------"
+DELAY 100
+ENTER
+DELAY 100
+UPARROW
+DELAY 50
+ENTER
