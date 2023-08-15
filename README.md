@@ -10,7 +10,9 @@ I found this basic script thought and thought it was funny
 
 ## ver
 Basic
+
   Current version is basic.
+  
     --Reqs:
         -admin privs
         -powershell not blocked
