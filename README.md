@@ -10,7 +10,7 @@ I found this basic script thought and thought it was funny
 ...but it didnt work. So I fixed it.
 
 ## ver
-Basic
+[Basic](https://github.com/2alf/DuckyMaxVol/blob/main/EvaKanyePayloadBASIC.txt)
 
   Current version is basic.
   
